@@ -1,150 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>阿龙</title>
-    <link rel="shortcut icon" href="img/logo1.jpg" />
-          <style type="text/css">
-      body {
-        background-color: rgb(76, 195, 231);
-      }
-      p {
-        color: rgb(18, 18, 201);
-      }
-    </style>
-    <style type="text/css">
-h1 {color:rgb(53, 4, 4);}
-p {color:blue;}
-</style>
+    <title>阿龙的个人网站</title>
+    <link rel="shortcut icon" href="images/image1.png" type="image.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/scripte.js" defer></script>
   </head>
   <body>
-    <pre>
+    <h1>MDN学习html</h1>
+    <a href="https://alongxx.github.io/one/">
+      <img
+        src="images/image1.png"
+        alt="阿龙的个人网站首页"
+        width="200"
+        height="200"
+      />
+    </a>
+    <ol>
+      <li><h5>用link标签在head中改网页小图标</h5></li>
+      <ul>
+        <li><h6>在head标签中</h6></li>
+        <li><h6>输出link标签</h6></li>
+        <li>
+          <h6>
+            rel
+            属性用于指定文档与外部资源之间的关系，其取值由预定义的关键字定义。
+          </h6>
+        </li>
+        <li>
+          <h6>href代表地址</h6>
+        </li>
+        <li>
+          <h6>
+            type 属性用于指定被链接资源的 MIME
+            类型，告诉浏览器如何解析和显示这个资源
+          </h6>
+        </li>
+      </ul>
+      <li><h5>用link将html网页和自己的css链接</h5></li>
+      <li><h5>用script将html跟自己的js链接</h5></li>
+      <li><h5>用ul标签和li标签把第一项无序排序</h5></li>
+      <li><h5>用ol标签和li标签把内容有序排序</h5></li>
+      <li>
+        <h5>
+          用a标签创建超链接到我已经上传的静态网站<a
+            href="https://alongxx.github.io/one/"
+            >阿龙</a
+          >
+        </h5>
+      </li>
 
-
-    <div
-      style="
-        font-family: verdana;
-        padding: 20px;
-        border-radius: 10px;
-        border: 10px solid #ee872a;
-      "
-    >
-       <img decoding="async" src="img/logo1.jpg" width="150 " height="150" />
-
-      <h1 style="font-size: 40px;">ww的个人空间</h1>
-
-      <div style="letter-spacing: 12px">小魏爱编程</div>
-
-      <div style="color: #e9771a">
-        加油加油！
-        <span style="background-color: #b4009e; color: #ffffff">最厉害</span>
-      </div>
-
-      <div style="color: #743535"><strong>下面都是学习过程中的各种实验演示</strong></div>
-    </div>
-    <h1 style="background-color: #da8414;">大标题</h1>
-
-
-    <p><a id="1627005628"></a></p>
-
-    <!-- 标题越大优先级越高 -->
-    <h2>二标题</h2>
-    注释快捷键
-    <!-- Alt+Shigt+a -->
-    <h3>三标题</h3>
-    <h4>四标题</h4>
-    <h5>五标题</h5>
-    <h6>六标题</h6>
-    <p>
-      第一个段落
-      <br /><!-- 两个br标签可以中间空一格 -->
-
-      <br /><strong>这个是加粗字体演示</strong><br />
-
-      <b>这个也是加粗字体标签</b>
-
-      <br /><em>这个是斜体演示</em>
-
-      <br /><i>这个也是斜体标签</i>
-
-      <br /><big>这个是放大演示</big>
-
-      <br /><small>这个是缩小演示</small>
-
-      <br />这个有<sup>上标</sup> <br />这个有<sub>下标</sub>
-    </p>
-    <hr />
-    <p>第二个段落<br />换行演示<br />再换一行</p><hr />
-
- <p><pre>第三个段落演示pre标签对
-        
-        空行和     空格进行控制</pre></p>   
-<p><pre><code>计算机输出</code>
-
-        <kbd>键盘输入</kbd>
-  
-<tt>打字机文本</tt>
-
-<samp>计算机代码样本</samp>
-
-<var>计算机变量</var>
-</pre></p>
-    <a href="https://v.qq.com" style="text-decoration:none;">腾讯视频<!--腾讯视频网址--></a>
-
-  <br>
-<abbr title="这是缩略词">鼠标指着有缩略词.</abbr>
-<br />
-<acronym title="这是缩略词">鼠标指着有缩略词</acronym>
-
-<!-- 在某些浏览器中，当您把鼠标移至缩略词语上时，title 可用于展示表达的完整版本。
-
-仅对于 IE 5 中的 acronym 元素有效。
-
-对于 Netscape 6.2 中的 abbr 和 acronym 元素都有效 -->
-
-<p>该段落文字从左到右显示。</p>  
-
-<p><bdo dir="rtl">该段落文字从右到左显示。</bdo></p>  
-
-<p>WWF's goal is to: 
-<q>Build a future where people live in harmony with nature.</q>
-We hope they succeed.</p>
-
-<p>这段文字标识删除和插入字<del>删除</del> <ins>插入</ins>!</p>
-
-<a href="https://www.runoob.com/" target="&quot">访问菜鸟教程!</a>
-
-<a id="tips">有用的部分</a>
-
-<a href="#tips">访问有用的提示部分</a>
-
-<a href="https://www.runoob.com/html/html-links.html#tips">
-访问有用的提示部分</a>
-
-<p>创建图片链接:
-<a href="http://www.runoob.com/html/html-tutorial.html">
-<img  border="10" src="logo1.jpg" alt="HTML 教程" width="32" height="32"></a></p>
-
-<p>无边框的图片链接:
-<a href="http://www.runoob.com/html/html-tutorial.html">
-<img border="0" src="logo1.jpg" alt="HTML 教程" width="32" height="32"></a></p>
-
-<p><a href="#1627005628">查看密码</a></p>
-
-<p>跳出框架?</p> 
-<a href="http://www.runoob.com/" target="_top">点击这里!</a> 
-
-<p>
-这是另一个电子邮件链接：
-<a href="mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!" target="_top">发送邮件!</a>
-</p>
-<!-- <p>
-<b>注意:</b> 单词之间的空格使用 %20 代替，以确保浏览器可以正常显示文本。
-</p> -->
-</form>
-<p></p>
-</pre>
-</body>
+      <li>
+        <h5>在开头用a标签创建图片链接到我已经上传的静态网站</h5>
+      </li>
+      <li><h5>在开头用a标签创建图片链接到我已经上传的静态网站</h5></li>
+    </ol>
+  </body>
 </html>
